@@ -1,0 +1,17 @@
+1 - Explain the nodejs event driven architecture ?
+
+Ans - As soon nodes start intrepreting a file. It reads through the whole code and register variables and functions
+
+2 - How can it basically scale to handle 1000 of requests a sec. What helps node JS even though it is single threaded?
+
+Ans - Here the function listens to events, whenever any event is detected it starts executing it immeadatly. 
+
+3 - What does process.exit do?
+
+Ans - It shuts down the program.It closes all events.
+
+4 - What does req.url , req.header and req.method contain?
+
+Ans - url - give the url that where we are at.
+      header - gives the info about the the site like content type
+      method - tells what type of method processing like get,post,update
